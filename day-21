@@ -102,7 +102,8 @@ terraform apply --auto-approve -var-file="dev.tfvar"
 Note: In the above example first we created the testing infrastructure and later we created developing infrastructure 
 but when developing infrastructure is created testing infrastructure had deleted.
 The main reason is both of the values you are passing from single workspace.
-when we work on single workspace previous values are going to be overrided and new values are going to be added for the current working infrastructure.
+when we work on single workspace previous values are going to be overrided and new values are going to be added for 
+the current working infrastructure.
 For this purpose in real time if you want to create multiple environments we use terraform workspace concept. 
 
 
